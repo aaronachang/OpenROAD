@@ -40,6 +40,8 @@ proc check_antennas { args } {
 
   sta::check_argc_eq0 "check_antennas" $args
 
+  puts "*************TEST*************"
+
   # set report_file ""
   if { [info exists keys(-report_file)] } {
     set report_file $keys(-report_file)
